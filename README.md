@@ -1,4 +1,4 @@
-flappyOwl
+ownProject
 =========
 
-A diferent version of flappyOwl
+Basic web page
