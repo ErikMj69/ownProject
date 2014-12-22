@@ -1,0 +1,60 @@
+/* * * * * * * * * * * * * * * * * * * * * * * * *  EBRPV.CSS  * * * * * * * * * * * * * * * * * * * * * * * * */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#gameArea {
+  margin: 100px auto;
+  position: relative;
+  width: 700px;
+  height: 400px;
+}
+#slideArea {
+  position: absolute;
+  width: 2100px;
+  height: 400px;
+}
+#bird {
+  left: 50px;
+  top: 184px;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+}
+.blockElem, .blockElem2 {
+  left: 50px;
+  position: absolute;
+  overflow: hidden;
+  width: 50px;
+  height: 200px;
+}
+.blockElem2 {
+  top: 280px;
+}
+
+#topLayer {
+  position: absolute;
+  overflow: hidden;
+  width: 700px;
+  height: 400px;
+}
+
+#mainMenuLayer {
+  position: absolute;
+  overflow: hidden;
+  width: 700px;
+  height: 400px;
+}
+#beginButton {
+  margin: 175px auto;
+  padding: 5px;
+  position: relative;
+  width: 150px;
+  height: 50px;
+}

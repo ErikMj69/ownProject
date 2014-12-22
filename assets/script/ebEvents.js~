@@ -1,0 +1,5 @@
+/* * * * * * * * * * * * * * * * * * * * * * * * *  EBEVENTS.JS  * * * * * * * * * * * * * * * * * * * * * * * * */
+
+$( 'beginButton' ).click( function() {
+  alert( 'Hello World' );
+});

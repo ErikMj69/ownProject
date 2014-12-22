@@ -1,0 +1,51 @@
+/* * * * * * * * * * * * * * * * * * * * * * * * *  EBSTL.CSS  * * * * * * * * * * * * * * * * * * * * * * * * */
+
+* {
+
+}
+
+body {
+  background: #F0F0F0;
+}
+
+#gameArea {
+  background: #FFF;
+  border: 1px solid #303030;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 10px #C0C0C0,
+    0px 0px 20px #909090;
+  overflow: hidden;
+  z-index: 100;
+}
+#slideArea {
+  background: transparent;
+  z-index: 110;
+}
+#bird {
+  background: #9FF;
+}
+.blockElem, .blockElem2 {
+  background: #303030;
+}
+
+#topLayer {
+  z-index: 190;
+}
+
+#mainMenuLayer {
+  background: rgba( 120, 120, 120, 0.5 );
+  z-index: 200;
+}
+#beginButton {
+  background: linear-gradient( #BF0, #8B0 );
+  border: 1px solid #690;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #FFF;
+  cursor: pointer;
+
+  color: #FFF;
+  font-family: 'Sans';
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
