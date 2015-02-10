@@ -5,47 +5,53 @@
 }
 
 body {
-  background: #F0F0F0;
+  background: #E7E7E7;
 }
 
+/* AREA */
 #gameArea {
   background: #FFF;
-  border: 1px solid #303030;
-  border-radius: 10px;
-  box-shadow: inset 0px 0px 10px #C0C0C0,
-    0px 0px 20px #909090;
+  border: 1px solid #C0C0C0;
   overflow: hidden;
   z-index: 100;
 }
-#slideArea {
+#bottomArea {
   background: transparent;
   z-index: 110;
 }
-#bird {
-  background: #9FF;
+#middleArea {
+  z-index: 150;
 }
-.blockElem, .blockElem2 {
-  background: #303030;
-}
-
-#topLayer {
+#topArea {
+  cursor: pointer;
   z-index: 190;
 }
-
-#mainMenuLayer {
-  background: rgba( 120, 120, 120, 0.5 );
-  z-index: 200;
-}
-#beginButton {
-  background: linear-gradient( #BF0, #8B0 );
-  border: 1px solid #690;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px #FFF;
-  cursor: pointer;
-
-  color: #FFF;
-  font-family: 'Sans';
-  font-size: 30px;
+#gameLogs {
+  background: rgba( 30, 30, 30, 0.7 );
+  color: #FFFFFF;
+  font-family: monospace;
+  font-size: 10px;
   font-weight: bold;
+  z-index: 300;
+}
+
+/* ELEMENTS */
+#score {
+  color: #303030;
   text-align: center;
+  z-index: 180;
+}
+
+/* CHARACTERS */
+#bird {
+  background: #BAFF00;
+  border-radius: 50px;
+  z-index: 155;
+}
+.block {
+  background: #40618E;
+  z-index: 160;
+}
+#b1 {
+  
 }

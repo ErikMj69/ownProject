@@ -7,54 +7,62 @@
 body {
   margin: 0px;
   padding: 0px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
+/* AREAS */
 #gameArea {
-  margin: 100px auto;
+  margin: 30px auto;
   position: relative;
-  width: 700px;
-  height: 400px;
+  width: 400px;
+  height: 600px;
 }
-#slideArea {
+#bottomArea {
   position: absolute;
   width: 2100px;
-  height: 400px;
+  height: 600px;
 }
+#middleArea, #topArea {
+  position: absolute;
+  width: 400px;
+  height: 600px;
+}
+#gameLogs {
+  bottom: 0px;
+  padding: 10px 30px;
+  position: absolute;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 400px;
+  height: 300px;
+}
+
+/* ELEMENTS */
+#score {
+  top: 10px;
+  right: 0px;
+  position: absolute;
+  overflow: hidden;
+  width: 40px;
+  height: 40px;
+  
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* CHARACTERS */
 #bird {
-  left: 50px;
-  top: 184px;
+  top: 276px;
+  left: 176px;
   position: absolute;
-  width: 32px;
-  height: 32px;
+  width: 48px;
+  height: 48px;
 }
-.blockElem, .blockElem2 {
-  left: 50px;
+.block {
+  left: 400px;
   position: absolute;
-  overflow: hidden;
-  width: 50px;
-  height: 200px;
-}
-.blockElem2 {
-  top: 280px;
-}
-
-#topLayer {
-  position: absolute;
-  overflow: hidden;
-  width: 700px;
-  height: 400px;
-}
-
-#mainMenuLayer {
-  position: absolute;
-  overflow: hidden;
-  width: 700px;
-  height: 400px;
-}
-#beginButton {
-  margin: 175px auto;
-  padding: 5px;
-  position: relative;
-  width: 150px;
-  height: 50px;
+  width: 100px;
+  height: 600px;
 }
